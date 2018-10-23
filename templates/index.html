@@ -1,0 +1,12 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+  </head>
+  <body>
+    <h1 id="target">Hello Flask from template with CSS & JavaScript??</h1>
+    <video src="{{url_for('static', filename='turtle.mp4')}}" autoplay>
+  </body>
+</html>
